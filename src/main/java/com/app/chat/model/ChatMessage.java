@@ -1,10 +1,8 @@
 package com.app.chat.model;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter
-@Setter
+@Data
 public class ChatMessage {
 
     private MessageType type;
